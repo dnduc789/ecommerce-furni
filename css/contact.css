@@ -1,0 +1,99 @@
+.form {
+    .space-above-form {
+        height: 100px;
+    }
+    .space-before-form {
+        display: inline-block;
+        width: 20%;
+    }
+    .main-form {
+        display: inline-block;
+        width: 60%;
+        .info {
+            .item {
+                display: inline-block;
+                width: 30%;
+                margin-right: 20px;
+                .icon {
+                    position: relative;
+                    top: -20px;
+                    margin-right: 20px;
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 10px;
+                    background-color:#3B5D50;
+                    text-align: center;
+                    i {
+                        position: relative;
+                        top: 15px;
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+                p {
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    color:#6a6a6a;
+                    width: 60%;
+                }
+            }
+        }
+        .input {
+            margin-bottom: 50px;
+            .name {
+                display: inline-block;
+                margin-right: 20px;
+                input {
+                    height: 50px;
+                    width: 416px;
+                    border-radius: 10px;
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+            }
+            .email {
+                input {
+                    height: 50px;
+                    width: 855px;
+                    border-radius: 10px;
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+            }
+            .message {
+                textarea {
+                    height: 137px;
+                    width: 855px;
+                    border-radius: 10px;
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+            }
+        }
+        .send-message-button {
+            margin-top: 50px;
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            padding-top: 5px;
+            border-radius: 30px;
+            color: white;
+            cursor: pointer;
+            background-color: rgb(43, 42, 42);
+            &:hover {
+                background-color: black;
+            }
+        }
+    }
+}
