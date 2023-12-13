@@ -38,14 +38,18 @@ nav {
 }
 
 .menu {
-    width: 47.5%;
+    width: 50%;
     display: inline-block;
 }
 
 .nav-item {
     display: inline-block;
-    padding: 8px 10px;
-    margin: 0 14px;
+    width: 13%;
+}
+
+.space-nav {
+    display: inline-block;
+    width: 1%;
 }
 
 .logo a {
@@ -352,6 +356,7 @@ nav {
                 color: #6a6a6a;
                 font-size: 14px;
                 font-weight: 400;
+                width: 90%;
             }
         }
         .item {
@@ -471,17 +476,17 @@ nav {
             background-image: url('template/furni-1.0.0/images/dots-green.svg');
             background-size: contain;
             background-repeat: no-repeat;
-            left: -100px;
+            left: -50px;
             top: -100px;
         }
     }
     .space-between {
         display: inline-block;
-        width: 5%;
+        width: 10%;
     }
     .body-paragraph {
         display: inline-block;
-        width: 35%;
+        width: 34%;
         top: -230px;
         h2 {
             color: #2f2f2f;
@@ -899,10 +904,17 @@ nav {
                 }
             }
         }
+        .space {
+            display: inline-block;
+            width: 5%;
+        }
+        .space-between {
+            display: inline-block;
+            width: 7.5%;
+        }
         .list {
             display: inline-block;
-            width: 15%;
-            margin-left: 30px;
+            width: 10%;
             position: relative;
             top: -40px;
             ul {

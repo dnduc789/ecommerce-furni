@@ -126,7 +126,10 @@
     .item {
         display: inline-block;
         width: 20%;
-        margin: 0px 30px;
+    }
+    .space-between-item {
+        display: inline-block;
+        width: 6%;
     }
     a {
         img {

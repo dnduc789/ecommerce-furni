@@ -34,14 +34,13 @@ nav {
 }
 
 .menu {
-    width: 47.5%;
+    width: 50%;
     display: inline-block;
 }
 
 .nav-item {
     display: inline-block;
-    padding: 8px 10px;
-    margin: 0 14px;
+    width: 13%;
 }
 
 .logo a {
@@ -302,10 +301,17 @@ nav {
                 }
             }
         }
+        .space {
+            display: inline-block;
+            width: 5%;
+        }
+        .space-between {
+            display: inline-block;
+            width: 7.5%;
+        }
         .list {
             display: inline-block;
-            width: 15%;
-            margin-left: 30px;
+            width: 10%;
             position: relative;
             top: -40px;
             ul {
